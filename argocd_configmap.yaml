@@ -8,8 +8,7 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   repositories: |
-    - name: my-test-repo
-      url: git@github.com:chandramohan97911/argocd-app-config-main.git
+    - url: git@github.com:chandramohan97911/argocd-app-config-main.git
       type: git
       sshPrivateKeySecret:
         name: my-deploy-secret
